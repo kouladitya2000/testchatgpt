@@ -1,5 +1,5 @@
 import openai
-from secret_key import openapi_key
+#from secret_key import openapi_key
 import streamlit as st
 
 # Set up OpenAI API credentials
