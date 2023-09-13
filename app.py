@@ -1,4 +1,3 @@
-import os
 import openai
 from secret_key import openapi_key
 import streamlit as st
