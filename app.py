@@ -25,7 +25,7 @@ def generate_restaurant_info(input1):
 
 def main():
     st.title("Dev GPT")
-    user_input = st.text_input("Write your prompt...", "")
+    user_input = st.text_input("Write your query...", "")
     if st.button("Generate"):
         restaurant_info = generate_restaurant_info(user_input)
         st.write(restaurant_info)
